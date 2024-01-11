@@ -8,8 +8,8 @@ RUN go version \
 
 FROM debian AS final
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 10080
+EXPOSE 10443
 
 WORKDIR /app
 
